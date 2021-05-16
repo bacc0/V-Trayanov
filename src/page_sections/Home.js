@@ -89,7 +89,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                          >
                          <div style={{ 
                                    height          : '100vh', 
-                                   backgroundColor : 'red',
+                                   backgroundColor : '#00A2C8',
                                    backgroundImage : `url('pictures/BG_home.svg')`,
                                    backgroundRepeat: 'no-repeat',
                                    backgroundPosition: 'center center',
