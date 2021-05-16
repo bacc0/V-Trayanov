@@ -95,7 +95,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                                    backgroundPosition: 'center center',
                                    backgroundSize:  landscape_Mode 
                                                        ? windowDimensions.height + 120 
-                                                       : 'auto 110vh'
+                                                       : 'auto 100vh'
 
                               }}
                               

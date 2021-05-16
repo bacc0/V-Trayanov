@@ -105,7 +105,7 @@ const About = ({ windowDimensions, Y_position_Percentage, pathLength, landscape_
                     // backgroundRepeat: 'repeat',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
-                    backgroundSize:  landscape_Mode ?  windowDimensions.height + 120 : 'auto 110vh' ,
+                    backgroundSize:  landscape_Mode ?  windowDimensions.height + 120 : 'auto 100vh' ,
                     height: '100vh'
                }}
           >
