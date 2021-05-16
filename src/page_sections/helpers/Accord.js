@@ -34,7 +34,17 @@ const Accord = () => {
                     </AccordionSummary>
                     <AccordionDetails>
                          <Typography>
-                              https://bacc0.github.io/v/trayanov.html
+                              <span style={{ margin: '0 0 0 10vw'}}> 
+                                   Github: {' '}
+                              </span>
+                              <a 
+                                   href="https://bacc0.github.io/v/trayanov.html"
+                                   target="_blank"
+                                   
+                              >
+                                   bacc0.github.io/v/trayanov.html
+                              </a>
+                                  
                          </Typography>
                     </AccordionDetails>
                </Accordion>
