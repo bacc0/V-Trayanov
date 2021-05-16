@@ -63,7 +63,8 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
 
                let result = (
                          <div className={classes.Title}>
-                              <Title widthLogo={widthLogo} 
+                              <Title 
+                                   widthLogo={widthLogo} 
                                    colorTitle={theme.palette.primary.title}
                                    colorTitleInner={theme.palette.primary.titleInner}
 
@@ -192,6 +193,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                                                        flexWrap: 'wrap', 
                                                        justifyContent: 'center', 
                                                        alignItems: 'center',
+                                                       marginLeft: '1.9vw'
                                                   }}
                                              >
                                                   <p>Currently working as developer at Groundbits Ltd</p>
@@ -333,7 +335,7 @@ const useStyles = makeStyles((theme) => ({
      Title:{
           // border: '0.4px solid blue',/
 
-          margin: '-50px 0 0 0',
+          margin: '-50px 0 0 1.9vw',
           textAlign: 'left',
           // // width   : 180,
 
