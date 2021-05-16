@@ -90,13 +90,12 @@ export const theme = createMuiTheme(
 				},
 			},
 			body1 :{
-				fontSize: '0.75rem',
+				fontSize: '0.95rem',
 				fontFamily: "'Audiowide','Yanone Kaffeesatz',Raleway, Roboto, Helvetica, Arial, sans-serif",
 				lineHeight: 1.2,
-				'@media (min-width : 370px)': {
-					// fontSize: '0.9rem',
-				},
+				
 				'@media (min-width : 460px)': {
+					fontSize: '0.75rem',
 				},
 			},
 			body2 :{
