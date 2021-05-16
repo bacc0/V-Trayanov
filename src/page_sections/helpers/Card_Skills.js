@@ -61,7 +61,6 @@ const useStyles = makeStyles({
      title: {
           fontSize: 20,
           color: theme.palette.tertiary.title,
-          paddingLeft: '10vw'
      },
      pos: {
           marginBottom: 12,

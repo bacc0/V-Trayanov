@@ -10,7 +10,7 @@ import Accord from './helpers/Accord'
 import Card_Skills from './helpers/Card_Skills'
 
 
-const Pro = () => {
+const Pro = ( {windowDimensions} ) => {
 
      const classes = useStyles()
 
@@ -29,7 +29,7 @@ const Pro = () => {
 
                          <div className={classes.main}>
                               <Card_Skills/>
-                              <Accord/>
+                              <Accord windowDimensions={windowDimensions}/>
                          </div>
                          </div>
                     </div>

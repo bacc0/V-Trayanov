@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState, useEffect} from 'react';
 
 
 import {  makeStyles, Accordion,Typography, useTheme,
@@ -11,13 +11,30 @@ const useStyles = makeStyles((theme) => ({
      root: {
           
      },
+     accordionBottom:{
+
+     }
      // marginTop: 
      
 }));
 
-const Accord = () => {
+const Accord = ( {windowDimensions} ) => {
      const classes = useStyles();
      const theme = useTheme()
+
+      const [margin_B, setMargin_B] = useState(16);
+
+
+     useEffect(() => {
+          if (windowDimensions) {
+  
+              if ( windowDimensions.width < 440) {
+                    setMargin_B(90)
+              } else {
+                    setMargin_B(16)
+              }
+          }
+      }, [windowDimensions])
      return (
           <div className={classes.root}>
                <Accordion  style={{ borderRadius: 0}}>
@@ -27,14 +44,14 @@ const Accord = () => {
                          id="panel1a-header"
                     >
                          <Typography className={classes.heading} 
-                              style={{ color: theme.palette.tertiary.title, fontSize: 20, paddingLeft: '10vw'}}
+                              style={{ color: theme.palette.tertiary.title, fontSize: 20}}
                          >
                               projects
                          </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                          <Typography>
-                              <span style={{ margin: '0 0 0 10vw'}}> 
+                              <span> 
                                    Github: {' '}
                               </span>
                               <a 
@@ -55,7 +72,7 @@ const Accord = () => {
                          id="panel2a-header"
                     >
                          <Typography className={classes.heading} 
-                              style={{ color: theme.palette.tertiary.title, fontSize: 20, paddingLeft: '10vw' }}
+                              style={{ color: theme.palette.tertiary.title, fontSize: 20 }}
                          >
                               work experience
                          </Typography>
@@ -80,14 +97,21 @@ const Accord = () => {
                     
                </Accordion>
 
-               <Accordion  style={{ borderRadius: 0 , marginBottom: 16}}>
+               <Accordion className={classes.accordionBottom} 
+               style={{ borderRadius: 0 , 
+               marginBottom: margin_B}}
+               
+               
+               
+               >
+                    
                     <AccordionSummary
                          expandIcon={<ExpandMoreIcon />}
                          aria-controls="panel1a-content"
                          id="panel1a-header"
                     >
                          <Typography className={classes.heading} 
-                              style={{ color: theme.palette.tertiary.title, fontSize: 20, paddingLeft: '10vw'}}
+                              style={{ color: theme.palette.tertiary.title, fontSize: 20}}
                          >
                               contact
                          </Typography>
@@ -96,7 +120,6 @@ const Accord = () => {
                          <Typography >
                               <a href="mailto:bacco7@me.com"
                                    target="_blank"
-                                   style={{ margin: '0 0 0 10vw'}}
                                    
                               >
                                    bacco7@me.com
@@ -105,7 +128,6 @@ const Accord = () => {
 
                               <a href="mailto:bacco23@gmail.com"
                                    target="_blank"
-                                   style={{ margin: '0 0 0 10vw'}}
                               >
                                    bacco23@gmail.com
                               </a>
@@ -113,7 +135,6 @@ const Accord = () => {
                               <a
                                    href="tel:+447590010066"
                                    target="_blank"
-                                   style={{ margin: '0 0 0 10vw'}}
                               >
                                    tel: +44 (0) 7590 010 066
                               </a>

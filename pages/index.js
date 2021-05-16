@@ -114,7 +114,9 @@ const Index = () => {
 
             <section ref={pro_Ref} style={{ backgroundColor:theme.palette.tertiary.background , minHeight: '100vh', margin: 0 }}>
 
-                <Pro/>
+                <Pro
+                    windowDimensions={windowDimensions}
+                />
                
                 
 
