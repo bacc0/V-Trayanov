@@ -70,6 +70,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                               />
                          </div>
                     )
+                    
                if (windowDimensions) {
                     
                     if (    windowDimensions.width  > windowDimensions.height 
@@ -125,9 +126,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                                    >
                                         <div style={{ 
                                                   backgroundPosition : `right ${-Y_position_Percentage * 800 }px`,
-
                                                   opacity            : opacity, 
-
                                                   height             : '100%', 
                                                   backgroundSize     : 'auto 100%',
                                                   backgroundImage    : `url('pictures/frontendDev.svg')`,
@@ -202,32 +201,6 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                               </div>
                          </div>
                     </div>
-                    {/* <div style={{
-                         // backgroundColor: '#00A2C8',
-                         width: '100vw',
-                         height: '100vh',
-                         // margin: '100vh 0',
-                         // zIndex: 1,
-                         position: 'relative',
-                         display: 'flex', 
-                         flexWrap: 'wrap', 
-                         justifyContent: 'center', 
-                         alignItems: 'center', 
-                         top: '-100vh'
-                    }}>
-                         <div style={{
-                              border: '0.2px solid #EFE8BD',
-
-                              width: '60vh',
-                              height: '60vh',
-                              backdropFilter : 'blur(10.5px)',
-                              
-                         }}>
-
-                         </div>
-
-                    </div> */}
-                    
                </Fragment>
           )
      }
