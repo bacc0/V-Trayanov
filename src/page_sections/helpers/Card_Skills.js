@@ -21,20 +21,15 @@ const Card_Skills = () => {
                     </h3>
                    
           <br />
-               
-                   { 
-                   skills.map((skill) => (
-                        <Typography>
-                              <p key={skill}>
-                                   {bull} {skill}
-                              </p>
-                              <br />
-                               {/*<br /> */}
-                         </Typography>
-					))
-                    }
-                   
-          <br />
+          <Typography>
+          <p> Developing with ReactJS single page JavaScript Applications</p> 
+          <p> Good understanding working with APIs (RESTful services)</p> 
+          <p>Web developer able to build a Web presence from the ground up, from concept, navigation, working with data and programming to UX </p>
+          <p>Skilled at writing well-designed, efficient code using current best practices in Web development</p> 
+     <p> Experience working with dynamic content</p> 
+        </Typography>     
+        <br/>  
+                  
                      
                </CardContent>
              
@@ -56,7 +51,7 @@ const useStyles = makeStyles({
      bullet: {
           display: 'inline-block',
           margin: '0 2px',
-          transform: 'scale(0.8)',
+          // transform: 'scale(0.8)',
      },
      title: {
           fontSize: 20,

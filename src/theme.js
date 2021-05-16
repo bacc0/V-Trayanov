@@ -90,7 +90,7 @@ export const theme = createMuiTheme(
 				},
 			},
 			body1 :{
-				fontSize: '0.9rem',
+				fontSize: '0.75rem',
 				fontFamily: "'Audiowide','Yanone Kaffeesatz',Raleway, Roboto, Helvetica, Arial, sans-serif",
 				lineHeight: 1.2,
 				'@media (min-width : 370px)': {

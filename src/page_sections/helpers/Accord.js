@@ -115,6 +115,7 @@ const Accord = ( {windowDimensions} ) => {
                     </AccordionSummary>
                     <AccordionDetails>
                          <Typography >
+                              <span> mail </span>
                               <a href="mailto:bacco7@me.com"
                                    target="_blank"
                                    
@@ -122,18 +123,19 @@ const Accord = ( {windowDimensions} ) => {
                                    bacco7@me.com
                               </a>
                               <br />
-
+                              <span> mail </span>
                               <a href="mailto:bacco23@gmail.com"
                                    target="_blank"
                               >
                                    bacco23@gmail.com
                               </a>
                               <br />
-                              <a
+                             <span> tel  </span>
+                             <a
                                    href="tel:+447590010066"
                                    target="_blank"
                               >
-                                   tel: +44 (0) 7590 010 066
+                                    +44 (0) 7590 010 066
                               </a>
                          </Typography>
                     </AccordionDetails>
