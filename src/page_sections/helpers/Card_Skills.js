@@ -54,7 +54,7 @@ const useStyles = makeStyles({
           // transform: 'scale(0.8)',
      },
      title: {
-          fontSize: 20,
+          fontSize: 21,
           color: theme.palette.tertiary.title,
      },
      pos: {

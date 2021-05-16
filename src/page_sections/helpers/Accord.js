@@ -46,7 +46,7 @@ const Accord = ( {windowDimensions} ) => {
                          <Typography className={classes.heading} 
                               style={{ color: theme.palette.tertiary.title, fontSize: 20}}
                          >
-                              github
+                              github 
                          </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
