@@ -29,7 +29,7 @@ const Accord = ( {windowDimensions} ) => {
           if (windowDimensions) {
   
               if ( windowDimensions.width < 440) {
-                    setMargin_B(90)
+                    setMargin_B(100)
               } else {
                     setMargin_B(16)
               }
@@ -46,14 +46,11 @@ const Accord = ( {windowDimensions} ) => {
                          <Typography className={classes.heading} 
                               style={{ color: theme.palette.tertiary.title, fontSize: 20}}
                          >
-                              projects
+                              github
                          </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                          <Typography>
-                              <span> 
-                                   Github: {' '}
-                              </span>
                               <a 
                                    href="https://bacc0.github.io/v/trayanov.html"
                                    target="_blank"

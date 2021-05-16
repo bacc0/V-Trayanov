@@ -125,10 +125,11 @@ const About = ({ windowDimensions, Y_position_Percentage, pathLength, landscape_
                          about
                     </Typography>
                </div>
+               <div style={{ marginTop: Y_position_Percentage > 0.13 ? -Y_position_Percentage * 25 : 0 }} >
+                    { result_PortraitMode()}
 
-               { result_PortraitMode()}
-
-               { result_LandscapeMode()}
+                    { result_LandscapeMode()}
+               </div>
                {
                Y_position_Percentage > 0.3 &&
                     <div className={classes.downPageText_Container} >
