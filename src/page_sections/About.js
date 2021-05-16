@@ -52,6 +52,12 @@ const About = ({ windowDimensions, Y_position_Percentage, pathLength, landscape_
                          SW={SW}
                          pathLength={pathLength}
                          Y_position_Percentage={Y_position_Percentage}
+                         color={theme.palette.diagram.color} 
+                         color_Text={theme.palette.diagram.color_Text}
+                         color_circle_IN={theme.palette.diagram.color_circle_IN}
+                         color_circle_OUT={theme.palette.diagram.color_circle_OUT}
+                         color_Text_Secondary={theme.palette.diagram.color_Text_Secondary}
+
                     />
                </div>)
           } else {
@@ -76,6 +82,11 @@ const About = ({ windowDimensions, Y_position_Percentage, pathLength, landscape_
                          SW={SW}
                          pathLength={pathLength}
                          Y_position_Percentage={Y_position_Percentage}
+                         color={theme.palette.diagram.color} 
+                         color_Text={theme.palette.diagram.color_Text}
+                         color_circle_IN={theme.palette.diagram.color_circle_IN}
+                         color_circle_OUT={theme.palette.diagram.color_circle_OUT}
+                         color_Text_Secondary={theme.palette.diagram.color_Text_Secondary}
                     />
                </div>)
           } else {
@@ -173,7 +184,7 @@ const useStyles = makeStyles((theme) => ({
           alignItems: 'flex-end',
           justifyContent: 'center',
 
-          color: theme.palette.primary.title,
+          color: theme.palette.secondary.title,
 
 
           '@media (min-width : 370px)': {
@@ -190,7 +201,7 @@ const useStyles = makeStyles((theme) => ({
           justifyContent: 'center',
           padding: '0 8vw',
           fontSize: 10,
-          color: theme.palette.primary.paragraph,
+          color: theme.palette.secondary.paragraph,
 
           '@media (min-width : 370px)': {
                // fontSize: 18,

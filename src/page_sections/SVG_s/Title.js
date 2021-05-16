@@ -5,10 +5,10 @@ import { motion }   from 'framer-motion'
 
 
 
-let svg = (widthLogo) => {
+let svg = (widthLogo, colorTitle) => {
 
-     const color = '#0B547F'
-     const color_In = '#0B547F'
+     const color = colorTitle
+     const color_In = colorTitle
      const strokeWidth = 2
      
 
@@ -430,7 +430,7 @@ let svg = (widthLogo) => {
 
 
 
-const Title = ({widthLogo}) => {
+const Title = ({widthLogo, colorTitle}) => {
     
 // alert(widthLogo)
 
@@ -439,7 +439,7 @@ useEffect(() => {
 }, [widthLogo])
      return (
           <div>
-               { svg(widthLogo) }
+               { svg(widthLogo, colorTitle) }
           </div>
      )
 }

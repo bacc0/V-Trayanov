@@ -12,18 +12,18 @@ import {
 import { makeStyles } from '@material-ui/core/styles'
 
 
-const Skills_Horiz = ({ SW, pathLength, Y_position_Percentage }) => {
+const Skills_Horiz = ({ SW, pathLength, Y_position_Percentage, 
+     color, color_Text, color_Text_Secondary, color_circle_IN, color_circle_OUT  }) => {
 
 
      const classes = useStyles()
 
-    
 
-     const color = '#CBC4A1'
-     const color_Text = '#13557D'
-     const color_Text_Secondary = '#A89582'
-     const color_circle_IN = '#F7EFC8'
-     const color_circle_OUT = '#CBC4A1'
+     // const color = '#CBC4A1'
+     // const color_Text = '#13557D'
+     // const color_Text_Secondary = '#A89582'
+     // const color_circle_IN = '#F7EFC8'
+     // const color_circle_OUT = '#CBC4A1'
 
      let strokeWidth = 1
 

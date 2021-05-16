@@ -50,7 +50,7 @@ const Menu = ({ Y_position_Percentage, scrollYProgress, windowDimensions, goTo_H
                     setPathColor(theme.palette.primary.menu)
                }
      
-               if (Y_position_Percentage > 0.41) {
+               if (Y_position_Percentage > 0.48) {
                     setPathColor(theme.palette.secondary.menu)
                }
      

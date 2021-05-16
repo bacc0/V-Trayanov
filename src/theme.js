@@ -14,15 +14,25 @@ export const theme = createMuiTheme(
 			},
 			
 			primary: {
-				dark: '#EFE8BD',
-				main: '#DBD5AC',
-				light: '#FFF8CD',
+				// dark: '#EFE8BD',
+				// main: '#DBD5AC',
+				// light: '#FFF8CD',
 
-				background: '#00A2C8',
-				paragraph: '#08437A',
-				title: '#08437A',
-				menu: '#DBD5AC',
-				menuMobile: '#DBD5AC',
+				// background: '#00A2C8',
+				// paragraph: '#08437A',
+				// title: '#08437A',
+				// menu: '#DBD5AC',
+				// menuMobile: '#DBD5AC',
+
+				dark: '#DCE0D9cc',
+				main: '#DCE0D9',
+				light: '#E3E8E0',
+
+				background: '#48575C',
+				paragraph: '#BFD336',
+				title: '#BFD336',
+				menu: '#00A2C8',
+				menu: '#DCE0D9',
 
 			},
 
@@ -32,8 +42,9 @@ export const theme = createMuiTheme(
 				light: '#F38432',
 
 				background: '#DBD5AC',
-				title: '#08437A',
-				menu: '#08437A',
+				title: '#48575C',
+				paragraph: '#337181',
+				menu: '#337181',
 
 			},
 			tertiary:{
@@ -43,8 +54,16 @@ export const theme = createMuiTheme(
 
 				background: '#DCE0D9',
 
-				menu: '#DBD5AC',
+				menu: '#48575C',
+				paragraph: '#337181',
 
+			},
+			diagram:{
+				color: '#48575C66',
+				color_Text: '#48575C',
+				color_circle_IN: '#DCE0D9',
+				color_circle_OUT: '#48575C66',
+				color_Text_Secondary: '#337181',
 			},
 
 			error: {

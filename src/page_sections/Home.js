@@ -3,6 +3,7 @@ import React , {Fragment, useState, useEffect} from 'react'
 import { makeStyles } from '@material-ui/core'
 import { motion }   from 'framer-motion'
 import Title from './SVG_s/Title'
+import { theme } from '../theme'
 
 
 const Home = ({  buttonClick_Handler,  windowDimensions, 
@@ -62,7 +63,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
 
                let result = (
                          <div className={classes.Title}>
-                              <Title widthLogo={widthLogo}/>
+                              <Title widthLogo={widthLogo} colorTitle={theme.palette.primary.title}/>
                          </div>
                     )
                if (windowDimensions) {
@@ -89,7 +90,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                          >
                          <div style={{ 
                                    height          : '100vh', 
-                                   backgroundColor : '#00A2C8',
+                                   backgroundColor : theme.palette.primary.background ,
                                    backgroundImage : `url('pictures/BG_home.svg')`,
                                    backgroundRepeat: 'no-repeat',
                                    backgroundPosition: 'center center',
