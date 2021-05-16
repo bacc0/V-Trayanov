@@ -38,7 +38,7 @@ const Menu = ({ Y_position_Percentage, scrollYProgress, windowDimensions, goTo_H
                }
      
                if (Y_position_Percentage > 0.59) {
-                    setPathColor(theme.palette.primary.menu)
+                    setPathColor(theme.palette.tertiary.menu)
                }
                
           } else {
