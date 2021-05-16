@@ -24,16 +24,15 @@ const Card_Skills = () => {
                
                    { 
                    skills.map((skill) => (
-                        <Fragment>
+                        <Typography>
                               <p key={skill}>
                                    {bull} {skill}
                               </p>
                               <br />
-                              <br />
-                         </Fragment>
+                               {/*<br /> */}
+                         </Typography>
 					))
                     }
-                    
                    
           <br />
                      
@@ -61,7 +60,8 @@ const useStyles = makeStyles({
      },
      title: {
           fontSize: 20,
-          color: theme.palette.tertiary.title
+          color: theme.palette.tertiary.title,
+          paddingLeft: '10vw'
      },
      pos: {
           marginBottom: 12,

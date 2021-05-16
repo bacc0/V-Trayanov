@@ -54,6 +54,7 @@ export const theme = createMuiTheme(
 				title: '#337181',
 				paragraph: '#48575C',
 				reference: '#00A2C8',
+				links: '#337181'
 
 			},
 			diagram:{
@@ -89,11 +90,11 @@ export const theme = createMuiTheme(
 				},
 			},
 			body1 :{
-				fontSize: '0.45rem',
+				fontSize: '0.9rem',
 				fontFamily: "'Audiowide','Yanone Kaffeesatz',Raleway, Roboto, Helvetica, Arial, sans-serif",
-				lineHeight: 1.9,
+				lineHeight: 1.2,
 				'@media (min-width : 370px)': {
-					fontSize: '0.7rem',
+					// fontSize: '0.9rem',
 				},
 				'@media (min-width : 460px)': {
 				},

@@ -27,7 +27,7 @@ const Accord = () => {
                          id="panel1a-header"
                     >
                          <Typography className={classes.heading} 
-                              style={{ color: theme.palette.tertiary.title, fontSize: 20}}
+                              style={{ color: theme.palette.tertiary.title, fontSize: 20, paddingLeft: '10vw'}}
                          >
                               projects
                          </Typography>
@@ -45,7 +45,7 @@ const Accord = () => {
                          id="panel2a-header"
                     >
                          <Typography className={classes.heading} 
-                              style={{ color: theme.palette.tertiary.title, fontSize: 20}}
+                              style={{ color: theme.palette.tertiary.title, fontSize: 20, paddingLeft: '10vw' }}
                          >
                               work experience
                          </Typography>
@@ -77,17 +77,36 @@ const Accord = () => {
                          id="panel1a-header"
                     >
                          <Typography className={classes.heading} 
-                              style={{ color: theme.palette.tertiary.title, fontSize: 20}}
+                              style={{ color: theme.palette.tertiary.title, fontSize: 20, paddingLeft: '10vw'}}
                          >
                               contact
                          </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                         <Typography>
-                              <p>bacco7@me.com</p>
-                              <p>bacco23@gmail.com</p>
-                              <br/>
-                              <p>tel:+44/7590 010 066</p>
+                         <Typography >
+                              <a href="mailto:bacco7@me.com"
+                                   target="_blank"
+                                   style={{ margin: '0 0 0 10vw'}}
+                                   
+                              >
+                                   bacco7@me.com
+                              </a>
+                              <br />
+
+                              <a href="mailto:bacco23@gmail.com"
+                                   target="_blank"
+                                   style={{ margin: '0 0 0 10vw'}}
+                              >
+                                   bacco23@gmail.com
+                              </a>
+                              <br />
+                              <a
+                                   href="tel:+447590010066"
+                                   target="_blank"
+                                   style={{ margin: '0 0 0 10vw'}}
+                              >
+                                   tel: +44 (0) 7590 010 066
+                              </a>
                          </Typography>
                     </AccordionDetails>
                </Accordion>

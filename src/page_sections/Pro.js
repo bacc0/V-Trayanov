@@ -52,22 +52,27 @@ const useStyles = makeStyles((theme) => ({
           flexWrap: 'wrap', 
           justifyContent: 'center', 
           alignItems: 'center', 
+          // textAlign: 'center',
 
 
 
 
           fontFamily: "'Audiowide', -apple-system, BlinkMacSystemFont",
-          '& p':{
-               margin: '-10px 0 0',
-               color: theme.palette.tertiary.paragraph,
-               fontSize: 12,
-               textAlign: 'left',
-               '@media (min-width : 600px)': {
-                    fontSize: 14,
-               },
+          // '& p':{
+          //      margin: '-10px 0 0',
+          //      color: theme.palette.tertiary.paragraph,
+          //      fontSize: 12,
+          //      // textAlign: 'center',
+          //      '@media (min-width : 600px)': {
+          //           fontSize: 14,
+          //      },
                
                 
-           },
+          //  },
+          //  '& a':{
+          //      color: theme.palette.tertiary.links,
+               
+          //  },
      },
      containerPro: {
           width: '84vw',
