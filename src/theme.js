@@ -8,21 +8,16 @@ export const theme = createMuiTheme(
 
 	{
 		palette: {
+			shape: {
+				borderRadius: 0
+			},
 
 			background: {
 				default: '#DCE0D9'
 			},
 			
 			primary: {
-				// dark: '#EFE8BD',
-				// main: '#DBD5AC',
-				// light: '#FFF8CD',
-
-				// background: '#00A2C8',
-				// paragraph: '#08437A',
-				// title: '#08437A',
-				// menu: '#DBD5AC',
-				// menuMobile: '#DBD5AC',
+				
 
 				dark: '#DCE0D9cc',
 				main: '#DCE0D9',
@@ -56,13 +51,15 @@ export const theme = createMuiTheme(
 				background: '#DCE0D9',
 
 				menu: '#48575C',
-				paragraph: '#337181',
+				title: '#337181',
+				paragraph: '#48575C',
+				reference: '#00A2C8',
 
 			},
 			diagram:{
 				color: '#48575C66',
-				color_Text: '#48575C',
-				color_circle_IN: '#DCE0D9',
+				color_Text: '#DCE0D9',
+				color_circle_IN: '#48575C',
 				color_circle_OUT: '#48575C66',
 				color_Text_Secondary: '#337181',
 			},
@@ -91,6 +88,16 @@ export const theme = createMuiTheme(
 					fontSize: '2.1rem',
 				},
 			},
+			body1 :{
+				fontSize: '0.45rem',
+				fontFamily: "'Audiowide','Yanone Kaffeesatz',Raleway, Roboto, Helvetica, Arial, sans-serif",
+				lineHeight: 1.9,
+				'@media (min-width : 370px)': {
+					fontSize: '0.7rem',
+				},
+				'@media (min-width : 460px)': {
+				},
+			},
 			body2 :{
 				fontSize: '0.45rem',
 				fontFamily: "'Audiowide','Yanone Kaffeesatz',Raleway, Roboto, Helvetica, Arial, sans-serif",
@@ -101,7 +108,6 @@ export const theme = createMuiTheme(
 				'@media (min-width : 460px)': {
 				},
 			},
-	
 		}
 	}
 )

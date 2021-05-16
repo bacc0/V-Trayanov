@@ -8,6 +8,7 @@ import Menu from '../src/page_sections/SVG_s/Menu'
 import styles from '../styles/Home.module.css'
 import Home from '../src/page_sections/Home'
 import About from '../src/page_sections/About'
+import Pro from '../src/page_sections/Pro'
 
 import { useViewportScroll, useSpring, useTransform } from 'framer-motion'
 import { theme } from '../src/theme'
@@ -111,9 +112,11 @@ const Index = () => {
             </section>
 
 
-            <section ref={pro_Ref} style={{ backgroundColor:theme.palette.tertiary.background , height: '100vh', margin: 0 }}>
+            <section ref={pro_Ref} style={{ backgroundColor:theme.palette.tertiary.background , minHeight: '100vh', margin: 0 }}>
+
+                <Pro/>
                
-                <div>pro</div>
+                
 
             </section>
 

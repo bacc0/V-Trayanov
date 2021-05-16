@@ -122,7 +122,7 @@ const About = ({ windowDimensions, Y_position_Percentage, pathLength, landscape_
           >
                <div className={classes.title_Container}>
                     <Typography variant="h1" align="center">
-                         skills
+                         about
                     </Typography>
                </div>
 
@@ -163,17 +163,7 @@ const useStyles = makeStyles((theme) => ({
 
           },
 
-          // '& p': {
-          //      margin: '10px 0 0',
-
-          //      fontSize: 16,
-          //      textAlign: 'left',
-
-          //      '@media (min-width : 600px)': {
-          //           fontSize: 20,
-          //      },
-
-          // },
+         
      },
      title_Container: {
 
