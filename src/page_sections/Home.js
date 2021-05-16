@@ -63,7 +63,11 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
 
                let result = (
                          <div className={classes.Title}>
-                              <Title widthLogo={widthLogo} colorTitle={theme.palette.primary.title}/>
+                              <Title widthLogo={widthLogo} 
+                                   colorTitle={theme.palette.primary.title}
+                                   colorTitleInner={theme.palette.primary.titleInner}
+
+                              />
                          </div>
                     )
                if (windowDimensions) {

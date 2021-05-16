@@ -10,7 +10,7 @@ export const theme = createMuiTheme(
 		palette: {
 
 			background: {
-				default: '#EFE9BB'
+				default: '#DCE0D9'
 			},
 			
 			primary: {
@@ -31,6 +31,7 @@ export const theme = createMuiTheme(
 				background: '#48575C',
 				paragraph: '#BFD336',
 				title: '#BFD336',
+				titleInner: '#BFD33600',
 				menu: '#00A2C8',
 				menu: '#DCE0D9',
 

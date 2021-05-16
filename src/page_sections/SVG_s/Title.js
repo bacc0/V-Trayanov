@@ -5,10 +5,10 @@ import { motion }   from 'framer-motion'
 
 
 
-let svg = (widthLogo, colorTitle) => {
+let svg = (widthLogo, colorTitle, colorTitleInner) => {
 
      const color = colorTitle
-     const color_In = colorTitle
+     const color_In = colorTitleInner
      const strokeWidth = 2
      
 
@@ -23,9 +23,8 @@ let svg = (widthLogo, colorTitle) => {
           xmlns="http://www.w3.org/2000/svg"   
           width={widthLogo} 
           height={247}  
-          viewBox="0, 0, 377, 247"
+          viewBox="0, 0, 380, 250"
           strokeWidth="2"
-        
 
      >
            <g id="Layer_1">
@@ -430,7 +429,7 @@ let svg = (widthLogo, colorTitle) => {
 
 
 
-const Title = ({widthLogo, colorTitle}) => {
+const Title = ({ widthLogo, colorTitle, colorTitleInner }) => {
     
 // alert(widthLogo)
 
@@ -439,7 +438,7 @@ useEffect(() => {
 }, [widthLogo])
      return (
           <div>
-               { svg(widthLogo, colorTitle) }
+               { svg(widthLogo, colorTitle, colorTitleInner) }
           </div>
      )
 }
