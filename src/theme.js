@@ -41,7 +41,7 @@ export const theme = createMuiTheme(
 
 
 
-				background: '#D7232A',
+				background: '#DCE0D9',
 
 				menu: '#DBD5AC',
 

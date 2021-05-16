@@ -141,7 +141,7 @@ export default About
 
 const useStyles = makeStyles((theme) => ({
      root: {
-          backgroundColor: '#EFE9BB',
+          backgroundColor: '#BFD336',
           // border: '1px solid',
           backgroundRepeat: 'no-repeat',
           // backgroundSize: 221,

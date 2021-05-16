@@ -111,9 +111,9 @@ const Index = () => {
             </section>
 
 
-            <section ref={pro_Ref} style={{ backgroundColor:theme.palette.tertiary.background , height: '100vh' }}>
+            <section ref={pro_Ref} style={{ backgroundColor:theme.palette.tertiary.background , height: '100vh', margin: 0 }}>
                
-                <h1>pro</h1>
+                <div>pro</div>
 
             </section>
 
