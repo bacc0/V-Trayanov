@@ -52,11 +52,11 @@ const Accord = ( {windowDimensions} ) => {
                     <AccordionDetails>
                          <Typography>
                               <a 
-                                   href="https://bacc0.github.io/v/trayanov.html"
+                                   href="https://github.com/bacc0/"
                                    target="_blank"
                                    
                               >
-                                   bacc0.github.io/v/trayanov.html
+                                   https://github.com/bacc0
                               </a>
                                   
                          </Typography>
