@@ -20,15 +20,15 @@ const Card_Skills = () => {
                          skills
                     </h3>
                    
-          <br />
-          <Typography>
-          <p> Developing with ReactJS single page JavaScript Applications</p> 
-          <p> Good understanding working with APIs (RESTful services)</p> 
-          <p>Web developer able to build a Web presence from the ground up, from concept, navigation, working with data and programming to UX </p>
-          <p>Skilled at writing well-designed, efficient code using current best practices in Web development</p> 
-     <p> Experience working with dynamic content</p> 
-        </Typography>     
-        <br/>  
+                    <br />
+                    <Typography>
+                         <p> Developing with ReactJS single page JavaScript Applications</p>
+                         <p> Good understanding working with APIs (RESTful services)</p>
+                         <p>Web developer able to build a Web presence from the ground up, from concept, navigation, working with data and programming to UX </p>
+                         <p>Skilled at writing well-designed, efficient code using current best practices in Web development</p>
+                         <p> Experience working with dynamic content</p>
+                    </Typography>
+                    <br />
                   
                      
                </CardContent>
@@ -43,6 +43,7 @@ export default Card_Skills
 const useStyles = makeStyles({
      root: {
           minWidth: 275,
+          minHeight: '50vh',
           width: '100%',
           margin: '0 0 16px',
           borderRadius: 0
