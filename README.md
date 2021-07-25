@@ -1,6 +1,10 @@
 https://trayanov.vercel.app
 
 
+<img width="150" alt="Screen Shot 2021-07-25 at 14 16 08" src="https://user-images.githubusercontent.com/37631578/126897153-2aac9bc5-434c-492a-867b-9bcd51bfd9bd.png">
+
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
