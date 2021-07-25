@@ -196,7 +196,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                                                        marginLeft: '1.9vw'
                                                   }}
                                              >
-                                                  <p>Currently working as developer at Appgr8. https://appgr8.com</p>
+                                                  <p>Currently working as developer at Appgr8</p>
                                              </div>
                                         </div>
                                    </div>
