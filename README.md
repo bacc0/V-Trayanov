@@ -1,6 +1,7 @@
 https://trayanov.vercel.app
 
-<img width="150" alt="Screen Shot 2021-07-25 at 14 16 08" src="https://user-images.githubusercontent.com/37631578/126897237-970b9b33-cb52-4b3c-8146-2e6675388aab.png"> <img width="150" alt="Screen Shot 2021-07-25 at 14 17 38" src="https://user-images.githubusercontent.com/37631578/126897239-f1672e8f-4113-4bfb-8913-ebdd3f263625.png">
+<img width="150" alt="Screen Shot 2021-07-25 at 14 16 08" src="https://user-images.githubusercontent.com/37631578/126897237-970b9b33-cb52-4b3c-8146-2e6675388aab.png"> <img width="150" alt="Screen Shot 2021-07-25 at 14 17 38" src="https://user-images.githubusercontent.com/37631578/126897239-f1672e8f-4113-4bfb-8913-ebdd3f263625.png"> <img width="150" alt="Screen Shot 2021-07-25 at 14 21 16" src="https://user-images.githubusercontent.com/37631578/126897290-9a6e16ac-a220-4f9a-a6c0-9b025805799f.png">
+
 
 
 
