@@ -16,15 +16,15 @@ const Card_Skills = () => {
      return (
           <Card className={classes.root}>
                <CardContent>
-                    <h3 className={classes.title} >
+                    <h3 className={classes.title}>
                          technologies
                     </h3>
 
                     <br />
                     <Typography >
                          <div>ReactJS,</div>
-                         <div>NextJS,</div>
                          <div>Hooks,</div>
+                         <div>NextJS,</div>
                          <div>Javascript,</div>
                          <br/>
                          <div>Material UI,</div>
@@ -54,11 +54,13 @@ const Card_Skills = () => {
                          NodeJS,
                          Express,
                          <br/>
+                         <br/>
 
                          Git,
                          Github,
                          Bitbucket,
                          Sourcetree,
+                         <br/>
                          <br/>
 
                          Jira, 
@@ -93,6 +95,8 @@ const useStyles = makeStyles({
      },
      title: {
           fontSize: 21,
+          marginTop: 0,
+          
           color: theme.palette.tertiary.title,
      },
      pos: {
