@@ -17,22 +17,59 @@ const Card_Skills = () => {
           <Card className={classes.root}>
                <CardContent>
                     <h3 className={classes.title} >
-                         skills
+                         technologies
                     </h3>
-                   
+
                     <br />
-                    <Typography>
-                         <p> Developing with ReactJS single page JavaScript Applications</p>
-                         <p> Good understanding working with APIs (RESTful services)</p>
-                         <p>Web developer able to build a Web presence from the ground up, from concept, navigation, working with data and programming to UX </p>
-                         <p>Skilled at writing well-designed, efficient code using current best practices in Web development</p>
-                         <p> Experience working with dynamic content</p>
+                    <Typography >
+                         <div>ReactJS,</div>
+                         <div>NextJS,</div>
+                         <div>Hooks,</div>
+                         <div>Javascript,</div>
+                         <br/>
+                         <div>Material UI,</div>
+                         <div>
+                              HTML,
+                              CSS,
+                              SASS,
+                         </div>
+                         <br/>
+                         <div>
+                              Framer Motion,
+                              SVG Animations,
+                         </div>
+                         <br/>
+                         <div>
+                              Illustrator, 
+                              Autodesk Graphic, 
+                              GIMP, 
+                              Photoshop, 
+
+                         </div>
+                         <br/>
+                    </Typography>
+                    <br></br>
+                    <Typography className={classes.softTech}>
+                         Typescript,
+                         NodeJS,
+                         Express,
+                         <br/>
+
+                         Git,
+                         Github,
+                         Bitbucket,
+                         Sourcetree,
+                         <br/>
+
+                         Jira, 
+                         Jenkins,
+                         Storybook,
+                         
                     </Typography>
                     <br />
-                  
-                     
+
                </CardContent>
-             
+
           </Card>
      );
 }
@@ -46,8 +83,8 @@ const useStyles = makeStyles({
           minHeight: '50vh',
           width: '100%',
           margin: '0 0 16px',
-          borderRadius: 0
-         
+          borderRadius: 12,
+
      },
      bullet: {
           display: 'inline-block',
@@ -61,6 +98,9 @@ const useStyles = makeStyles({
      pos: {
           marginBottom: 12,
      },
+     softTech: {
+          opacity: 0.7
+     },
 });
 
 
@@ -70,5 +110,5 @@ const skills = [
      'Web developer able to build a Web presence from the ground up, from concept, navigation, working with data and programming to UX',
      'Skilled at writing well-designed, efficient code using current best practices in Web development',
      'Experience working with dynamic content',
-     
+
 ]

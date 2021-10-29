@@ -11,7 +11,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles((theme) => ({
      root: {
-
+          
      },
      accordionBottom: {
 
@@ -39,6 +39,43 @@ const Accord = ({ windowDimensions }) => {
      }, [windowDimensions])
      return (
           <div className={classes.root}>
+               <Accordion style={{ borderRadius: '12px 12px 0 0' }}>
+                    <AccordionSummary
+                         expandIcon={<ExpandMoreIcon />}
+                         aria-controls="panel1a-content"
+                         id="panel1a-header"
+                    >
+                         <Typography className={classes.heading}
+                              style={{ color: theme.palette.tertiary.title, fontSize: 20 }}
+                         >
+                              skills
+
+                         </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                         <Typography>
+
+                              <Typography>
+                                   <p> Problem Solving Skills</p>
+                                   <p> Teamwork</p>
+                                   <p> Developing with ReactJS single page JavaScript Applications</p>
+                                   <p> Good understanding working with APIs (RESTful services)</p>
+                                   <p>Web developer able to build a Web presence from the ground up, from concept, navigation, working with data and programming to UX </p>
+                                   <p> Attention to Detail</p>
+                                   <p> Creativity</p>
+                                   <p>Skilled at writing well-designed, efficient code using current best practices in Web development</p>
+                                   <p> Experience working with dynamic content</p>
+                                   <p> Flexibility</p>
+                                   <p> Responsibility</p>
+                              </Typography>
+
+                         </Typography>
+                    </AccordionDetails>
+               </Accordion>
+
+
+
+
                <Accordion style={{ borderRadius: 0 }}>
                     <AccordionSummary
                          expandIcon={<ExpandMoreIcon />}
@@ -79,18 +116,24 @@ const Accord = ({ windowDimensions }) => {
                     <AccordionDetails>
                          <Typography>
 
-                              <p>React Developer - appgr8 ,  July 2021 - Present</p>
+                              <p><strong>React Developer - Amdocs & Appgr8</strong></p>  
+                              <p>July 2021 - Present (Full-time)</p>
+                              <br />
+                              <hr/>
+
+                              <p><strong>React Developer - Groundbits Ltd</strong></p>
+                              <p> Feb 2021 – Apr 2021 (3 months, Part-time)</p>
                               <br />
 
-                              <p>Developer - Groundbits Ltd, February 2019 - May 2021</p>
+                              <p><strong>React Developer - Groundbits Ltd</strong></p>
+                              <p> Jan 2020 – Jan 2021 (1 year 1 month, Full-time)</p>
                               <br />
 
-
-                              <p>I have been working to support IT personnel in designing and developing desktop-based and web applications. </p>
-                              <p>I have been responsible for coding, testing, debugging, modifying, and executing JavaScript programs for software projects.</p>
+                              <p><strong>Frontend Developer - Groundbits Ltd</strong></p>
+                              <p> Feb 2019 – Dec 2019 (11 months, Part-time)</p>
                               <br />
-
-                              <p style={{ fontSize: 10, color: theme.palette.tertiary.reference, marginBottom: 6 }}>Reference:</p>
+                              <hr/>
+                           
                               <p>Ricard Rosson</p>
 
                               <p>ricard@iacos.net</p>
@@ -102,7 +145,7 @@ const Accord = ({ windowDimensions }) => {
 
                <Accordion className={classes.accordionBottom}
                     style={{
-                         borderRadius: 0,
+                         borderRadius: '0 0 12px 12px ',
                          marginBottom: margin_B
                     }}
 
@@ -121,7 +164,7 @@ const Accord = ({ windowDimensions }) => {
                               contact
                          </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails >
                          <Typography >
                               <span> mail </span>
                               <a href="mailto:bacco7@me.com"
@@ -140,19 +183,20 @@ const Accord = ({ windowDimensions }) => {
                               <br />
                               <span> tel  </span>
                               <a
-                                   href="tel:+359887787711"
-                                   target="_blank"
-                              >
-                                   +359 (0) 88 778 7711
-                              </a>
-                              <div></div>
-                              <span> tel  </span>
-                              <a
                                    href="tel:+447590010066"
                                    target="_blank"
                               >
                                    +44 (0) 7590 010 066
                               </a>
+                              <div/>
+                              <span> tel  </span>
+                              <a
+                                   href="tel:+359887787711"
+                                   target="_blank"
+                              >
+                                   +359 (0) 88 778 7711
+                              </a>
+                              
                          </Typography>
                     </AccordionDetails>
                </Accordion>

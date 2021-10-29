@@ -196,7 +196,7 @@ const Home = ({  buttonClick_Handler,  windowDimensions,
                                                        marginLeft: '1.9vw'
                                                   }}
                                              >
-                                                  <p>Currently working as developer at Appgr8</p>
+                                                  <p>Currently working at Amdocs & Appgr8</p>
                                              </div>
                                         </div>
                                    </div>
@@ -242,6 +242,7 @@ const useStyles = makeStyles((theme) => ({
 		textDecoration : 'none',
           margin         : '0px',
           padding        : '5px 36px',
+          borderRadius   : 12,
           
 		'&:hover': {
 

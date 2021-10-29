@@ -132,13 +132,10 @@ const About = ({ windowDimensions, Y_position_Percentage, pathLength, landscape_
                </div>
                {
                Y_position_Percentage > 0.3 &&
-                    <div className={classes.downPageText_Container} >
-                         <Typography variant="body2" align="center">
-                              ReactJs, NextJS, Hooks, Material UI, HTML, CSS,
-                              Github, Javascript, NodeJS, Express, GIMP, Photoshop,
-                              Autodesk Graphic, Illustrator, Framer Motion, SVG Animations
-                         </Typography>
+                    <div className={classes.downPageText_Container}>
+                              front end developer
                     </div>
+                    
                }
           </div>
      )
@@ -146,8 +143,6 @@ const About = ({ windowDimensions, Y_position_Percentage, pathLength, landscape_
 }
 
 export default About
-
-
 
 
 
@@ -161,10 +156,7 @@ const useStyles = makeStyles((theme) => ({
 
           '@media (min-width : 820px)': {
                // backgroundSize: 560,
-
           },
-
-         
      },
      title_Container: {
 
@@ -176,7 +168,6 @@ const useStyles = makeStyles((theme) => ({
           justifyContent: 'center',
 
           color: theme.palette.secondary.title,
-
 
           '@media (min-width : 370px)': {
                // fontSize: 18,
@@ -190,13 +181,13 @@ const useStyles = makeStyles((theme) => ({
           flexWrap: 'wrap',
           alignItems: 'flex-start',
           justifyContent: 'center',
-          padding: '0 8vw',
-          fontSize: 10,
+          padding: '20px 8vw',
+          fontSize: 21,
           color: theme.palette.secondary.paragraph,
+         
 
           '@media (min-width : 370px)': {
                // fontSize: 18,
           },
      }
-
 }))

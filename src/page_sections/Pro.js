@@ -2,9 +2,6 @@ import React , {Fragment, useState, useEffect} from 'react'
 
 import { makeStyles, Typography } from '@material-ui/core'
 
-import { motion }   from 'framer-motion'
-
-import { theme } from '../theme'
 
 import Accord from './helpers/Accord'
 import Card_Skills from './helpers/Card_Skills'
@@ -19,15 +16,15 @@ const Pro = ( {windowDimensions} ) => {
      return (
                <Fragment>
                     <div className={ classes.root }>
-                    <div className={ classes.containerPro }>
+                    <div className={ classes.containerPro } >
 
-                         <div className={classes.title_Container}>
+                         <div className={classes.title_Container} >
                               <Typography variant="h1" align="center">
                                    pro
                               </Typography>
                          </div>
 
-                         <div className={classes.main}>
+                         <div className={classes.main} >
                               <Card_Skills/>
                               <Accord windowDimensions={windowDimensions}/>
                          </div>
