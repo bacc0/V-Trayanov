@@ -1,11 +1,11 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Link              from 'next/link'
 import { useRouter }     from 'next/router'
 
 // import { AnimatePresence } from "framer-motion"
 
 
-export default ({ href, children }) => {
+const _Link = ({ href, children }) => {
 	const router = useRouter()
 
 	// alert()
@@ -25,3 +25,4 @@ export default ({ href, children }) => {
 			</Link>
 		 
 }
+export default _Link

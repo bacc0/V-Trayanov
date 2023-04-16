@@ -71,7 +71,7 @@ const Menu = ({ Y_position_Percentage, scrollYProgress, windowDimensions, goTo_H
           <Fragment>
                <svg
                     className={classes.root}
-                    style={{ backgroundColor: 'darkgreen'}}
+                    style={{ backgroundColor: 'transparent'}}
 
                     version='1.1' x='0' y='0' width='150' height='150' viewBox='0, 0, 105, 73'>
                     <g id='Lines'>
